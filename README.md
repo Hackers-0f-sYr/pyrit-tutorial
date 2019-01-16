@@ -5,7 +5,9 @@
 اولاً نقوم بتحليل الملف بالأمر التالي:
 pyrit -r captured.cap analyze
 
-image
+<p align="center">
+  <img src="https://github.com/Hackers-0f-sYr/pyrit-tutorial/blob/master/image/pyrit%20-r%20captured.cap%20analyze.png" height="30%" width="30%">
+</p>
 
 ثم نأخذ اسم الشبكة أو الـ SSID 
 
