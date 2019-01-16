@@ -15,7 +15,9 @@ pyrit -r captured.cap analyze
 
 pyrit -r captured.cap -o new_captured strip
 
-image
+<p align="center">
+  <img src="https://github.com/Hackers-0f-sYr/pyrit-tutorial/blob/master/image/pyrit%20-r%20captured.cap%20-o%20handsake%20strip.png" height="30%" width="30%">
+</p>
 
 في هذا الأمر قمنا بفصل المعلومات المفيدة ووضعناها في ملف جديد 
 
@@ -23,7 +25,9 @@ image
 
 pyrit -i /usr/share/wordlists/rockyou.txt import_passwords
 
-Image
+<p align="center">
+  <img src="https://github.com/Hackers-0f-sYr/pyrit-tutorial/blob/master/image/pyrit3.png" height="30%" width="30%">
+</p>
 ثم الأمر 
 pyrit eval 
 لمشاهدة كم عدد الباسورد
@@ -32,9 +36,12 @@ pyrit eval
 
 pyrit -e Too_cl0se_to_th3_Sun create_essid
 
-image
-image evale2
-
+<p align="center">
+  <img src="https://github.com/Hackers-0f-sYr/pyrit-tutorial/blob/master/image/pyrit%20create_essid.png" height="30%" width="30%">
+</p>
+<p align="center">
+  <img src="https://github.com/Hackers-0f-sYr/pyrit-tutorial/blob/master/image/evel2.png" height="30%" width="30%">
+</p>
 خامساً نقوم بتجميع المعلومات في قاعدة البيانات بمعنى أنه يتم اضافة اسم الشبكة والملف الذي استخرجته من ملف captured.cap وملف الباسورد إلى قاعدة البيانات بالامر التالي:
 
 pyrit batch 
@@ -45,4 +52,6 @@ image pyrit batch
 
 pyrit -r new_captured attack_db
 
-image pyrit -r new_captured attack_db
+<p align="center">
+  <img src="https://github.com/Hackers-0f-sYr/pyrit-tutorial/blob/master/image/pyrit%20-r%20new_captured%20attack_db.png" height="30%" width="30%">
+</p>
